@@ -1,0 +1,12 @@
+[task]
+name = "parse-malformed-csv"
+difficulty = "medium"
+category = "data-processing"
+language = "python"
+timeout_seconds = 180
+max_attempts = 1
+
+[task.metadata]
+description = "Parse a malformed CSV with mixed delimiters, encoding issues, and missing fields into clean JSON"
+skills = ["data-wrangling", "text-processing", "edge-cases", "python"]
+expected_changes = ["parse.py"]

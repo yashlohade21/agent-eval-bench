@@ -1,0 +1,12 @@
+[task]
+name = "fix-off-by-one"
+difficulty = "easy"
+category = "bug-fix"
+language = "python"
+timeout_seconds = 120
+max_attempts = 1
+
+[task.metadata]
+description = "Fix off-by-one errors in a pagination function"
+skills = ["debugging", "boundary-conditions", "python"]
+expected_changes = ["paginator.py"]

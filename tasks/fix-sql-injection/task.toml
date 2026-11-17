@@ -1,0 +1,14 @@
+[task]
+name = "fix-sql-injection"
+difficulty = "hard"
+category = "security"
+language = "python"
+timeout_seconds = 300
+max_attempts = 1
+
+[task.metadata]
+description = "Fix SQL injection vulnerabilities in a Flask endpoint using parameterized queries"
+skills = ["security", "sql", "flask", "python", "defensive-coding"]
+expected_changes = ["app.py"]
+frontier_model_failure = true
+failure_reason = "Models often use string escaping instead of parameterized queries, or break the LIKE search functionality"
